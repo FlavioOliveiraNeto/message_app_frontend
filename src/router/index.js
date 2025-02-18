@@ -8,7 +8,7 @@ const router = createRouter({
   routes: [
     { path: '/', redirect: '/login' },
     { path: '/login', component: Auth },
-    { path: '/users', component: UserList },
+    { path: '/messages', component: UserList },
     { path: '/messages/:userId', component: Messages, props: true }
   ]
 });
