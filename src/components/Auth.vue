@@ -28,7 +28,7 @@
           });
           
           localStorage.setItem('token', response.data.token);
-          this.$router.push('/users');
+          this.$router.push('/messages');
         } catch (error) {
           alert('ID inválido. Tente novamente.');
         }
